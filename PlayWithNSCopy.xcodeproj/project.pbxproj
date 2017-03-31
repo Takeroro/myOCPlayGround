@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5520E3E61E6FE9D1004EEEA5 /* PlayPointerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5520E3E51E6FE9D1004EEEA5 /* PlayPointerTest.m */; };
+		552AA3231E498C3A00504E6B /* RegrexTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 552AA3221E498C3A00504E6B /* RegrexTest.m */; };
 		5544B78B1DBA0632004CA4FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544B78A1DBA0632004CA4FB /* main.m */; };
+		5544B7931DBA066E004CA4FB /* DNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5544B7921DBA066E004CA4FB /* DNPerson.m */; };
+		555C626A1E794EF900A9FA7A /* CharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 555C62691E794EF900A9FA7A /* CharacterSet.m */; };
+		55A9A5ED1E8546A3005F7A88 /* DelayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9A5EC1E8546A3005F7A88 /* DelayTest.m */; };
+		55CBABE61DE7E3E800DA4616 /* Compartor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBABE51DE7E3E800DA4616 /* Compartor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5520E3E41E6FE9D1004EEEA5 /* PlayPointerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayPointerTest.h; sourceTree = "<group>"; };
+		5520E3E51E6FE9D1004EEEA5 /* PlayPointerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayPointerTest.m; sourceTree = "<group>"; };
+		552AA3211E498C3A00504E6B /* RegrexTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegrexTest.h; sourceTree = "<group>"; };
+		552AA3221E498C3A00504E6B /* RegrexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegrexTest.m; sourceTree = "<group>"; };
 		5544B7871DBA0632004CA4FB /* PlayWithNSCopy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PlayWithNSCopy; sourceTree = BUILT_PRODUCTS_DIR; };
 		5544B78A1DBA0632004CA4FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5544B7911DBA066E004CA4FB /* DNPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPerson.h; sourceTree = "<group>"; };
+		5544B7921DBA066E004CA4FB /* DNPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPerson.m; sourceTree = "<group>"; };
+		555C62681E794EF900A9FA7A /* CharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterSet.h; sourceTree = "<group>"; };
+		555C62691E794EF900A9FA7A /* CharacterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterSet.m; sourceTree = "<group>"; };
+		55A9A5EB1E8546A3005F7A88 /* DelayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayTest.h; sourceTree = "<group>"; };
+		55A9A5EC1E8546A3005F7A88 /* DelayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayTest.m; sourceTree = "<group>"; };
+		55CBABE41DE7E3E800DA4616 /* Compartor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compartor.h; sourceTree = "<group>"; };
+		55CBABE51DE7E3E800DA4616 /* Compartor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compartor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				5544B78A1DBA0632004CA4FB /* main.m */,
+				555C62681E794EF900A9FA7A /* CharacterSet.h */,
+				555C62691E794EF900A9FA7A /* CharacterSet.m */,
+				5544B7911DBA066E004CA4FB /* DNPerson.h */,
+				5544B7921DBA066E004CA4FB /* DNPerson.m */,
+				55CBABE41DE7E3E800DA4616 /* Compartor.h */,
+				55CBABE51DE7E3E800DA4616 /* Compartor.m */,
+				552AA3211E498C3A00504E6B /* RegrexTest.h */,
+				552AA3221E498C3A00504E6B /* RegrexTest.m */,
+				5520E3E41E6FE9D1004EEEA5 /* PlayPointerTest.h */,
+				5520E3E51E6FE9D1004EEEA5 /* PlayPointerTest.m */,
+				55A9A5EB1E8546A3005F7A88 /* DelayTest.h */,
+				55A9A5EC1E8546A3005F7A88 /* DelayTest.m */,
 			);
 			path = PlayWithNSCopy;
 			sourceTree = "<group>";
@@ -119,6 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552AA3231E498C3A00504E6B /* RegrexTest.m in Sources */,
+				55CBABE61DE7E3E800DA4616 /* Compartor.m in Sources */,
+				55A9A5ED1E8546A3005F7A88 /* DelayTest.m in Sources */,
+				5520E3E61E6FE9D1004EEEA5 /* PlayPointerTest.m in Sources */,
+				5544B7931DBA066E004CA4FB /* DNPerson.m in Sources */,
+				555C626A1E794EF900A9FA7A /* CharacterSet.m in Sources */,
 				5544B78B1DBA0632004CA4FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +282,7 @@
 				5544B7901DBA0632004CA4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
