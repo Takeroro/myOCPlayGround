@@ -14,6 +14,7 @@
 #import "PlayPointerTest.h"
 #import "CharacterSet.h"
 #import "DelayTest.h"
+#import "NSString+Addtion.h"
 
 const static int schmeaVersionHistory[] = {1};
 #define LATEST_VERSION (schmeaVersionHistory[sizeof(schmeaVersionHistory) / sizeof(schmeaVersionHistory[0]) - 1])
@@ -149,6 +150,11 @@ int main(int argc, const char * argv[]) {
             extern int abc;//出去找，可以找到.m里面的
             NSLog(@"abc = %d",abc);
         }
+        NSString *sampleStr = @"href=\"www.baidu.com\"balalabllablalbhref=\"www.piaohua.com\"";
+
+//        NSString *sampleStr = @"";
+        NSArray *test = [sampleStr getLinksFromHtml];
+        
     }
     return 0;
 }

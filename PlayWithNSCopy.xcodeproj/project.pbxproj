@@ -14,6 +14,7 @@
 		555C626A1E794EF900A9FA7A /* CharacterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 555C62691E794EF900A9FA7A /* CharacterSet.m */; };
 		55A9A5ED1E8546A3005F7A88 /* DelayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9A5EC1E8546A3005F7A88 /* DelayTest.m */; };
 		55CBABE61DE7E3E800DA4616 /* Compartor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBABE51DE7E3E800DA4616 /* Compartor.m */; };
+		A5DEAAD51E9BB86900BB54CC /* NSString+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DEAAD41E9BB86900BB54CC /* NSString+Addtion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		55A9A5EC1E8546A3005F7A88 /* DelayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayTest.m; sourceTree = "<group>"; };
 		55CBABE41DE7E3E800DA4616 /* Compartor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compartor.h; sourceTree = "<group>"; };
 		55CBABE51DE7E3E800DA4616 /* Compartor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Compartor.m; sourceTree = "<group>"; };
+		A5DEAAD31E9BB86900BB54CC /* NSString+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addtion.h"; sourceTree = "<group>"; };
+		A5DEAAD41E9BB86900BB54CC /* NSString+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addtion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		5544B7891DBA0632004CA4FB /* PlayWithNSCopy */ = {
 			isa = PBXGroup;
 			children = (
+				A5DEAAD21E9BB7D900BB54CC /* DRCatogery */,
 				5544B78A1DBA0632004CA4FB /* main.m */,
 				555C62681E794EF900A9FA7A /* CharacterSet.h */,
 				555C62691E794EF900A9FA7A /* CharacterSet.m */,
@@ -90,6 +94,15 @@
 				55A9A5EC1E8546A3005F7A88 /* DelayTest.m */,
 			);
 			path = PlayWithNSCopy;
+			sourceTree = "<group>";
+		};
+		A5DEAAD21E9BB7D900BB54CC /* DRCatogery */ = {
+			isa = PBXGroup;
+			children = (
+				A5DEAAD31E9BB86900BB54CC /* NSString+Addtion.h */,
+				A5DEAAD41E9BB86900BB54CC /* NSString+Addtion.m */,
+			);
+			name = DRCatogery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				552AA3231E498C3A00504E6B /* RegrexTest.m in Sources */,
 				55CBABE61DE7E3E800DA4616 /* Compartor.m in Sources */,
 				55A9A5ED1E8546A3005F7A88 /* DelayTest.m in Sources */,
+				A5DEAAD51E9BB86900BB54CC /* NSString+Addtion.m in Sources */,
 				5520E3E61E6FE9D1004EEEA5 /* PlayPointerTest.m in Sources */,
 				5544B7931DBA066E004CA4FB /* DNPerson.m in Sources */,
 				555C626A1E794EF900A9FA7A /* CharacterSet.m in Sources */,
